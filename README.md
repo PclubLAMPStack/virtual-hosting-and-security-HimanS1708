@@ -29,3 +29,7 @@
   - Website 2 should be accessible to user1 and user2
   - When you open them through user3 and user4 they should show you a custom made error Forbidden page which should contain the following message: <br>"You should be an Authenticated user. Contact web gawd!" <br> with title as "Web Gawd can stop you anywhere"
   <hr>
+
+<h3> Some Remarks </h3>
+- I was unable to do the subtask where we had to make the website accessible from one client and inaccessible from the other. <br>
+- Also, there is no HTTP_FORBIDDEN file because I edited the ErrorDocument 401 (Unauthorized Error) to make the custom error page.
